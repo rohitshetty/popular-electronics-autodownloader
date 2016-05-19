@@ -22,3 +22,6 @@ The script works roughly as follows
 * Filenames is sorted according to year of issue, into an dictonary. Where year is the key and value is the array of filenames pertaining to that year. 
 * All the files of that particular event are downloaded using multithread and stored in one folder. 
 * Next batch of files, of some other year is only started once this batch of files are downloaded. 
+
+Dependency
+* BeautifulSoup 
